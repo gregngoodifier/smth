@@ -1,0 +1,11 @@
+name = input("Ingresa un nombre:" )
+asterisk = "*"
+
+num_of_ast = asterisk * (len(name) + 2)
+
+def printAst():
+    print(num_of_ast)
+
+printAst()
+print("*" + name + "*")
+printAst()
